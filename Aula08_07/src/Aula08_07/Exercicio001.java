@@ -4,10 +4,19 @@ import java.util.Scanner;
 public class Exercicio001 {
 
 	public static void main(String[] args) {
-		int num1;
-		int num2;
 		Scanner entrada = new Scanner (System.in);
-
+			int num1;
+			int num2;
+			System.out.print("Digite um número: ");
+			num1 = entrada.nextInt();
+			System.out.print("Digite outro número: ");
+			num2 = entrada.nextInt();
+			int soma = num1 + num2;
+		
+			System.out.print("A soma entre " + num1);
+			System.out.print(" e "+num2);
+			System.out.print(" é igual a: " + soma);
+					
 	}
 
 }

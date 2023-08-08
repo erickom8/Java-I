@@ -1,0 +1,25 @@
+package Aula08_07;
+
+import java.util.Scanner;
+
+public class Exercicio006 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		float salario;
+		float percentual;
+		
+		System.out.println("-Percentual De Ajuste do seu Salário-");
+		System.out.print("Digite o seu salário: ");
+		salario = entrada.nextFloat();
+		System.out.print("Agora, o percentual de ajuste: ");
+		percentual = entrada.nextFloat();
+		
+		float salariofinal= salario + (salario * percentual/100);
+		
+		System.out.printf("Seu salario final é de: R$" + salariofinal);
+
+		
+	}
+
+}

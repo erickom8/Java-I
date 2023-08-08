@@ -1,0 +1,21 @@
+package Aula08_07;
+import java.util.Scanner;
+
+
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		System.out.print(entrada);
+		/*
+		byte idade = 18;
+		System.out.print("Ola mundo! Eu tenho ");
+		System.out.print(idade);
+		System.out.print(" anos");
+		*/
+	}
+
+}
+
+

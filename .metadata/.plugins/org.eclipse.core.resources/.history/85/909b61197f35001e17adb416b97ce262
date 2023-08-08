@@ -1,0 +1,30 @@
+package Aula08_07;
+
+import java.util.Scanner;
+
+public class Exercicio007 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		float preco;
+		float desempenho;
+		float distancia;
+		
+		System.out.println("---Calculando o desempenho da sua Viagem!---");
+
+		System.out.print("Qual o preço do combustível? R$");
+		preco = entrada.nextFloat();
+		System.out.print("Qual o desempenho em quilometro por litro (km/L) seu carro faz? ");
+		desempenho = entrada.nextFloat();
+		System.out.print("Digite a distância entre as duas cidades: ");
+		distancia = entrada.nextFloat();
+		
+		float litros = (distancia/desempenho);
+		float valorfinal = litros * preco;
+		
+		System.out.printf("Sua viagem custará R$ %.2f", valorfinal + " e utilizará: %.2f", litros + " L.");
+
+		
+	}
+
+}

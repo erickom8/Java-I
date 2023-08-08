@@ -1,0 +1,12 @@
+package Aula08_07;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		byte idade = 18;
+		System.out.print("Ola mundo! Eu tenho ");
+		System.out.print(idade);
+		System.out.print(" anos");
+	}
+
+}

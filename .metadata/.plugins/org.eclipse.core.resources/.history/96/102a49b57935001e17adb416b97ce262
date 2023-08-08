@@ -1,0 +1,18 @@
+package Aula08_07;
+
+import java.util.Scanner;
+
+public class Exercicio003 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		float medida;
+		System.out.println("-Conversor de medida-");
+		System.out.print("Digite sua medida em metros: ");
+		medida = entrada.nextInt();
+		float milimetros = medida * 1000;
+		System.out.printf("O valor em milímetros é de: " + milimetros);
+
+	}
+
+}

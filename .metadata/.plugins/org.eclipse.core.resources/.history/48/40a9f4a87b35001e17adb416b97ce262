@@ -1,0 +1,24 @@
+package Aula08_07;
+
+import java.util.Scanner;
+
+public class Exercicio005 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		int A;
+		int B;
+		System.out.println("-Invertendo Valores-");
+		System.out.print("Digite um valor: ");
+		A = entrada.nextInt();
+		System.out.print("Digite outro valor: ");
+		B = entrada.nextInt();
+		A = B;
+		B = A;
+		
+		System.out.println("Agora A vale: " + A);
+		System.out.print("E B vale " + B);
+		
+	}
+
+}

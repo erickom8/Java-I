@@ -1,0 +1,11 @@
+package Aula08_07;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		float idade = 18;
+		System.out.println("Eu tenho " + idade + " anos!");
+		
+	}
+
+}

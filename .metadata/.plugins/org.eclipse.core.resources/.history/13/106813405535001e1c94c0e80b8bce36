@@ -1,0 +1,11 @@
+package Aula08_07;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		float raio = 18.0f;
+		System.out.println("Eu tenho" + raio + "anos!");
+		
+	}
+
+}
